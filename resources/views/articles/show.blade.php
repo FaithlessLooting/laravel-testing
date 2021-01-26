@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.app')
 @section('content')
 
 <h1>Showing: {{ $article->topic }}</h1>
